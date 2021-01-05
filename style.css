@@ -1,0 +1,214 @@
+body {
+  box-sizing: border-box;
+}
+
+.lobster-font {
+  font-family: "Lobster", cursive;
+}
+
+.verela-font {
+  font-family: "Varela Round", sans-serif;
+}
+
+.source-font {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.one-third {
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+}
+
+/* topnav */
+
+.topnav a {
+  text-decoration: none;
+  color: dimgray;
+  padding: 2%;
+  padding-left: auto;
+}
+
+.topnav {
+  text-align: right;
+}
+
+/* introduction-area */
+
+.introduction-area {
+  height: 500px;
+  padding-top: 50px;
+}
+
+.name {
+  color: rgb(214, 152, 38);
+}
+
+.btn1 {
+  color: tomato;
+  background: transparent;
+  border: 2px solid salmon;
+  border-radius: 6px;
+  padding: 10px 32px;
+  margin: 4px 2px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: salmon;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+/* about-area */
+.about-area {
+  height: 500px;
+  padding-bottom: 50px;
+}
+
+.btn2 {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightSalmon, tomato);
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px 10px;
+  color: white;
+  font-weight: 700;
+}
+
+/* skill-area */
+.skill-area {
+  height: 350px;
+  margin: 5%;
+  padding-top: 20px;
+  background-color: rgba(178, 187, 160, 0.418);
+  text-align: center;
+  border-radius: 25px;
+  box-shadow: 10px 20px 40px rgb(75, 73, 71);
+}
+
+.skill-area h3 {
+  color: dimgray;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+/* Projects-area */
+
+.projects-area {
+  text-align: center;
+  height: 500px;
+  padding: 50px 0 150px;
+}
+
+.project {
+  border-radius: 5px 10px;
+  box-shadow: 5px 10px 40px gray;
+  font-family: "Varela Round", sans-serif;
+}
+
+.project:hover {
+  background-color: black;
+  color: white;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.project img {
+  width: 100%;
+}
+
+.project p {
+  text-align: justify;
+  padding: 0 2%;
+}
+
+/* contact-area */
+.contact-area {
+  position: relative;
+  height: 200px;
+  padding-bottom: 100px;
+  margin: 5%;
+}
+.contact-area img {
+  width: 100%;
+}
+
+.details {
+  position: absolute;
+  top: 50px;
+  left: 10%;
+  color: white;
+}
+
+.btn3 {
+  text-decoration: none;
+  background: transparent;
+  border: 2px solid salmon;
+  padding: 10px 20px;
+  border-radius: 5px 10px;
+  position: absolute;
+  top: 150px;
+  right: 10%;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.btn3:hover {
+  background-image: linear-gradient(
+    45deg,
+    rgb(219, 139, 108),
+    rgb(163, 94, 81)
+  );
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  height: 200px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 25px;
+}
+.social-media img {
+  width: 40px;
+  height: auto;
+  padding: 1%;
+}
+
+.copyright {
+  font-weight: 600;
+  font-style: italic;
+}
