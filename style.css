@@ -37,7 +37,7 @@ h3 {
   width: 100%;
 }
 
-.one-third {
+.one-third-width {
   width: 30%;
   float: left;
   margin: 1.5%;
@@ -133,6 +133,8 @@ ul {
   border-radius: 5px 10px;
   box-shadow: 5px 10px 40px gray;
   font-family: "Varela Round", sans-serif;
+  text-decoration: none;
+  color: black;
 }
 
 .project:hover {
